@@ -1,0 +1,9 @@
+.graveyard {
+    width: 100vw;
+    height: 100vh;
+    background: url('https://images.unsplash.com/photo-1495365200479-c4ed1d35e1aa?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=runnyrem-LfqmND-hym8-unsplash.jpg');
+    background-size: cover;
+}
+.ghost {
+    font-size: 160px;
+}

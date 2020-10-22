@@ -1,0 +1,29 @@
+.background {
+    width: 100vw;
+    height: 100vh;
+    background: url('https://images.unsplash.com/photo-1515681239795-dfbc47075158?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=lance-grandahl-zf7rb2MF3ok-unsplash.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ghost {
+    opacity: 0;
+    transition: all 0.2s;
+}
+
+.phone {
+    opacity: 1;
+    transition: all 0.2s;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 10px 20px rgba(0,0,0,0.5);
+    font-size: 60px;
+    transition: all 0.2s;
+}
