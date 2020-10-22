@@ -1,0 +1,21 @@
+.wall {
+    width: 100vw;
+    height: 100vh;
+    background: url('https://images.unsplash.com/photo-1547998872-71a44f061d5a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=jan-antonin-kolar-HB26V8IRL2k-unsplash.jpg');
+    background-size: cover;
+}
+.frame {
+    width: 400px;
+    height: 300px;
+    border-color: rgb(97, 23, 23);
+    border-width: 20px;
+    border-style: inset;
+    position: relative;
+    background-color: beige;
+}
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
+}
